@@ -1,0 +1,36 @@
+---
+title: KU ADRC Custom Report
+format:
+  pdf:
+    pdf-engine: xelatex
+    keep-tex: false
+editor_options: 
+  chunk_output_type: console
+params:
+  titles: NULL
+  tables_path: NULL
+---
+
+## Here is Your Custom Report
+
+```{r add-tables}
+#| echo: false
+#| results: asis
+#| ft.align: left
+
+source("functions.R")
+
+library(magrittr)
+
+load(params$tables_path)
+
+for (i in seq_along(tables)) {
+  cat(paste0("", params$titles[[i]], ""), sep = "\n")
+  tables[[i]] |>
+    flextable::flextable() |>
+    flextable::autofit() |>
+    ft_add_theme() |>
+    flextable::flextable_to_rmd()
+}
+
+```

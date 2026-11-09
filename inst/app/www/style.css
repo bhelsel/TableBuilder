@@ -1,0 +1,129 @@
+.skin-black .main-header .logo {
+  background-color: #ffffff;
+  height: 70px;
+  padding-top: 10px;
+}
+.skin-black .main-header .navbar {
+  background-color: #ffffff;
+  height: 70px;
+  padding-top: 10px;
+}
+.skin-black .main-sidebar {
+  background-color: #1e3a8a;
+  padding-top: 80px;
+}
+.sidebar-menu > li.active > a {
+  background-color: #1e3a8a;
+  border-left: 3px solid #b91c1c;
+}
+.skin-black .sidebar-menu > li:hover > a {
+  background-color: #b91c1c;
+}
+.content-wrapper {
+  background-color: #ffffff;
+}
+.box {
+  border-top-color: #b91c1c;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.skin-black .box.box-primary > .box-header {
+  background-color: #1e40af;
+}
+.small-box {
+  border-radius: 8px;
+}
+.small-box .icon {
+  color: rgba(255, 255, 255, 0.3);
+}
+.info-box {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+  border-top-color: #b91c1c;
+}
+.btn-primary {
+  background-color: #1e3a8a;
+  border-color: #000000;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+}
+h3,
+h4 {
+  color: #ffffff;
+}
+
+h5 {
+  color: #1e3a8a;
+  font-size: 24px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+  background-color: #b91c1c !important;
+  border-color: #b91c1c !important;
+}
+
+.survey-complete,
+.survey-incomplete {
+  font-size: 44px;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+/* Sidebar Section Styling */
+.sidebar-section {
+  margin-bottom: 20px;
+}
+
+.section-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Button Styling */
+.capture-btn {
+  margin-bottom: 10px;
+}
+
+.download-btn {
+  margin-bottom: 0;
+}
+
+/* Action Divider */
+.action-divider {
+  margin: 15px 0;
+  border-top: 1px solid #ddd;
+}
+
+/* Helper Text */
+.helper-text {
+  display: block;
+  margin-top: 8px;
+  text-align: center;
+  color: #999;
+  font-size: 0.85em;
+}
+
+/* Full-width buttons */
+.btn-block {
+  width: 100%;
+  display: block;
+}
+
+/* Optional: Add hover effects to buttons */
+.capture-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
